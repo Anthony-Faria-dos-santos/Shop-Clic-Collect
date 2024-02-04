@@ -3,9 +3,7 @@ import "./env.load.js";
 import mongoose from "mongoose";
 
 const username = process.env.MONGO_USERNAME;
-console.log("🟢 username", username);
 const password = process.env.MONGO_PASSWORD;
-console.log("🟢 password", password);
 const clusterUrl = "cluster-clickcollect.dj0mwfn.mongodb.net";
 const DBName = "Marketplace";
 const URI = `mongodb+srv://${username}:${password}@${clusterUrl}/?retryWrites=true&w=majority`;
