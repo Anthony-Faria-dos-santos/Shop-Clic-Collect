@@ -1,5 +1,5 @@
-import { createServer } from "node:http";
 import "./app/helpers/env.load.js";
+import { createServer } from "node:http";
 import mongoDBClient from "./app/helpers/mongo.client.js";
 import expressApp from "./app/index.app.js";
 
